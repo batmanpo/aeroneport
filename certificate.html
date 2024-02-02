@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="styleee.css" />
+    <title>Certificate</title>
+</head>
+<body>
+    <nav>
+        <div class="nav__content">
+          <div class="logo"><a href="#">AAR</a></div>
+          <label for="check" class="checkbox">
+            <i class="ri-menu-line"></i>
+          </label>
+          <input type="checkbox" name="check" id="check" />
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </nav><br><br><br><br>
+      <div class="row">
+        <div class="column">
+          <img src="assets/c1.jpg" alt="dcit1" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+          <img src="assets/c2.jpg" alt="dcit2" onclick="myFunction(this);">
+        </div><br><br>
+        <div class="column">
+          <img src="assets/c3.jpg" alt="dcit3" onclick="myFunction(this);">
+        </div><br><br>
+        <div class="column">
+          <img src="assets/intro.png" alt="cisco1" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+            <img src="assets/endpoint.png" alt="cisco2" onclick="myFunction(this);">
+         </div>
+         <div class="column">
+            <img src="assets/c5.jpg" alt="#" onclick="myFunction(this);">
+         </div>
+      </div>
+      
+      <div class="container">
+        <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+      
+        <img id="expandedImg" style="width:100%">
+      
+        <div id="imgtext"></div>
+      </div>
+</body>
+</html>
